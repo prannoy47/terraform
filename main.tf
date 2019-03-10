@@ -7,7 +7,7 @@ resource "aws_instance" "Linux_VM" {
   instance_type = "t2.micro"
 
   tags {
-    Name = "Terraform_New"
+    Name = "Terraform_New_Change"
   }
 }
 
